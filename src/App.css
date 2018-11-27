@@ -17,6 +17,7 @@
   height: 200px;
   padding: 20px;
   color: white;
+  text-align: center;
 }
 
 .App-title {
@@ -27,9 +28,22 @@
   font-size: large;
 }
 
+#container {
+  margin: 1%;
+}
+
 h6 {
   text-align: center;
   font-size: xx-large;
+}
+
+ul {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 5px;
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 @keyframes App-logo-spin {

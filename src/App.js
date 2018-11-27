@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import cat from './cat.jpg';
-import Counter from './components/counter';
+import Todo from './components/Todo';
 import './App.css';
 
 class App extends Component {
@@ -11,13 +11,11 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="Todo">
         <header className="App-header">
           <img src={cat} className="logo" alt="logo" />
-          <h1 className="App-title">Selamat Datang di React pertamaku</h1>
         </header>
-        <Counter name='Istighfar'/>
-        <Counter name='Hamdalah'/>
+        <Todo/>
       </div>
     );
   }
