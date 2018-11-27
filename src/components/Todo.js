@@ -81,7 +81,7 @@ class Todo extends Component {
         return (
             <div id='container'>
                 <h1>Ini ToDo !</h1>
-                <input type = 'text' onChange={this.handlechange} value={this.state.input}></input>
+                <input type = 'text' placeholder='Apa yang ingin dilakukan ?' onChange={this.handlechange} value={this.state.input}></input>
                 {this.state.buttonView ?(
                     <div>
                         <button onClick={()=>this.editData(this.state.id)}>Edit</button>
